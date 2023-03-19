@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Weeknd Tour 2023</title>
+    <div class="link">
+      Hosted with <a href="https://www.netlify.com/">Netlify</a>
+    </div>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        color: black;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      h2 {
+        text-align: center;
+        padding: 15px 5px 15px 5px;
+        line-height: 1;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 20px;
+        border: 2.5px solid brown;
+      }
+      h3 {
+        text-align: left;
+        line-height: 1;
+        font-size: 21px;
+        margin: 20px 0;
+        padding: 15px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      p {
+        text-align: left;
+        line-height: 1;
+        font-size: 20px;
+        margin: 20px 0;
+        padding: 12px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      hr {
+        width: 65%;
+        height: 1px;
+        color: #be3810;
+        background: #be3810;
+        font-size: 0;
+        border: 0;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 5px 20px 5px;
+        max-width: 100%;
+        border-radius: 32px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 24px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        background: #fdb44b;
+        color: black;
+        padding: 15px 15px;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 5px 5px 7px orangered;
+        transition: all 300ms ease-in-out;
+      }
+      body {
+        background: linear-gradient(
+          109.7deg,
+          rgb(202, 50, 50) 5.7%,
+          rgb(252, 195, 12) 92.4%
+        );
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 50px;
+      }
+      .tour {
+        display: block;
+        margin: 10px;
+        text-decoration: underline;
+        font-size: 15px;
+      }
+      .tour:hover {
+        text-decoration: underline;
+      }
+      .contacts {
+        text-align: center;
+        font-size: medium;
+
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        display: block;
+        padding: 35px 0px 35px 0px;
+        margin: 0 auto;
+        text-decoration: none;
+      }
+      .contacts:hover {
+        text-decoration: underline;
+      }
+      button:hover {
+        color: rgb(128, 195, 226);
+        background: rgb(1, 64, 116);
+        box-shadow: 5px 5px 10px rgb(1, 157, 254);
+        opacity: 1;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <strong> <h1>☄️The Weeknd Europe tour 2023☄️</h1></strong>
+      <h2>🌠Come to <em> The Weeknd's </em> concert with us!🌠</h2>
+      <h3>
+        Abel Makkonen Tesfaye, known professionally as <em> The Weeknd</em>, is
+        a Canadian singer and songwriter. Known for his sonic versatility and
+        dark lyricism, his music explores escapism, romance, and melancholia,
+        and is often inspired by personal experiences.
+      </h3>
+      <hr />
+      <strong>
+        <p>
+          Today, Diamond certified and award-winning artist The Weeknd announced
+          2023 dates for the expansion of his After Hours Til Dawn Tour. The
+          next leg of the tour will kick off Saturday, June 10th in Manchester,
+          UK at Etihad Stadium, with stops across Europe and Latin America in
+          Stockholm, Amsterdam, Mexico City, Rio de Janeiro, and more before
+          wrapping up in Santiago, Chile on Sunday, October 15th at Estadio
+          Bicentenario de La Florida. Additional 2023 dates will be announced
+          soon. The completely sold out North American leg of the stadium tour
+          was an incredible success breaking attendance records and grossing
+          over $130 million dollars to date.
+          <br />
+        </p>
+      </strong>
+      <a
+        href="https://en.wikipedia.org/wiki/The_Weeknd"
+        target="_blank"
+        class="tour"
+      >
+        Learn more about him on wikipedia
+      </a>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/062/194/original/Fi7EvbBUoAA8Nkd.jpg?1673381217"
+        alt="Tour"
+        width="470"
+      />
+      <button class="ticket-button">💫Buy a ticket now!💫</button>
+      <p class="contacts">
+        This page was built by
+        <a
+          href="https://www.linkedin.com/in/iryna-voronchuk-729946225/"
+          target="_blank"
+        >
+          Iryna Voronchuk</a
+        >
+      </p>
+    </div>
+    <script>
+      function result() {
+        let name = prompt("What is your name?");
+        let continent = prompt("Which continent you are from?");
+        let country = prompt("From which country you are from?");
+        let email = prompt("What is your email address?");
+        if (continent === "Europe" || continent === "South America") {
+          alert(
+            "Thank you," +
+              " " +
+              name +
+              " " +
+              "from" +
+              " " +
+              country +
+              "!" +
+              " " +
+              "We have sent all information to your email, mealwhile you can go listen to The Weeknd!😎"
+          );
+        } else {
+          alert(
+            "Sorry," +
+              name +
+              "! You won't be able to see Abel this time, see you on next tour!🤩"
+          );
+        }
+      }
+      let ticketButton = document.querySelector(".ticket-button");
+      ticketButton.addEventListener("click", result);
+    </script>
+  </body>
+</html>
